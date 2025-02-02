@@ -1,0 +1,105 @@
+.container {
+  /* margin-top: 5%; */
+  padding-left: 2%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  width: 98vw;  /* Full width of the viewport */
+  height: 90vh; 
+  background-color: rgba(4, 97, 67, 1);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 50%;
+}
+
+.name {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  margin: 20px;
+}
+
+.jobTitle {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  margin: 20px;
+}
+
+.description {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  margin: 20px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+  width: 100px;
+  margin: 20px;
+}
+
+.image {
+  width: 40%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 70%;
+  padding-right: 50px;
+}
+
+.links a
+{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  text-decoration: none;
+}
+
+.dan {
+  border-radius: 16px;
+  margin-top: 50px;
+}

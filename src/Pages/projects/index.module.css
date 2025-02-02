@@ -1,0 +1,53 @@
+.container {
+  background-color: white;
+  width: 90vw;
+  /* Full width of the viewport */
+  height: 90vh;
+  /* Full height of the viewport */
+  padding: 5vh;
+}
+
+.body
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.name {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.57px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  margin: 0px;
+  text-align: end;
+}
+
+.content {
+  width: 25%;
+  height: 477px;
+  top: 173px;
+  left: 49px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background-color: rgba(4, 97, 67, 1);
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.description
+{
+  font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}

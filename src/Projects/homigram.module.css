@@ -1,0 +1,182 @@
+.container {
+  /* margin-top: 5%; */
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  width: 96vw;
+  /* Full width of the viewport */
+  height: 90vh;
+  background-color: rgba(4, 97, 67, 1);
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+}
+
+.title {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 252, 252, 1);
+}
+
+.sourceCode,
+.button {
+  width: 261px;
+  height: 63px;
+  top: 28px;
+  left: 1146px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: center;
+  border: none;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(3, 68, 58, 1);
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.landlords {
+  width: 251px;
+  height: 328px;
+  top: 645px;
+  left: 39px;
+  gap: 0px;
+  border-radius: 24px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.tenants {
+  width: 310px;
+  height: 404px;
+  top: 573px;
+  left: 312px;
+  gap: 0px;
+  border-radius: 24px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.cardName {
+  background-color: rgba(4, 97, 67, 1);
+  border-radius: 16px;
+  padding: 10px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: fit-content;
+  color: white;
+}
+
+.tenantsName {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 228px;
+  height: 69px;
+  top: 588px;
+  left: 353px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background-color: rgba(4, 97, 67, 1);
+  color: white;
+
+}
+
+
+.cardDescription {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 60%;
+}
+
+.tenantsDescription {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.31px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.description {
+  width: 45%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  margin-left: 250px;
+}
+
+.descriptionText {
+  width: 400px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+}
+
+.buttonContainer
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
